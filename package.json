@@ -4,6 +4,8 @@
   "description": "scrapper for nodejs positions",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src/*",
+    "lint:fix": "npm run lint -- --fix",
     "test": "test",
     "prepare": "husky install"
   },
@@ -23,7 +25,15 @@
   },
   "homepage": "https://github.com/Sergio-Pedretti/nodejscafe#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.45.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
     "git-commit-msg-linter": "^5.0.4",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "typescript": "^5.1.6"
   }
 }
