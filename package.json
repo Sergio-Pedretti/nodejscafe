@@ -1,0 +1,29 @@
+{
+  "name": "nodejscafe",
+  "version": "1.0.0",
+  "description": "scrapper for nodejs positions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sergio-Pedretti/nodejscafe.git"
+  },
+  "keywords": [
+    "nodejs",
+    "position",
+    "search"
+  ],
+  "author": "sergiopedretti and marcosmoraes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sergio-Pedretti/nodejscafe/issues"
+  },
+  "homepage": "https://github.com/Sergio-Pedretti/nodejscafe#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.4",
+    "husky": "^8.0.0"
+  }
+}
