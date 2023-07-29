@@ -18,5 +18,6 @@ module.exports = {
   transform: {
     '\\.ts$': 'ts-jest'
   },
+  preset: "jest-puppeteer",
   clearMocks: true
 }
