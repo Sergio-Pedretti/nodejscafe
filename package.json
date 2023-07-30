@@ -4,13 +4,13 @@
   "description": "scrapper for nodejs positions",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/main",
+    "dev": "ts-node-dev --respawn --transpile-only src/main",
     "lint": "eslint 'src/**/*.ts'",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --passWithNoTests --no-cache --runInBand --forceExit",
     "test:watch": "npm test -- --watch",
-    "test:staged": "npm test -- --findRelatedTests --forceExit",
-    "test:coverage": "npm test -- --coverage --forceExit",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:coverage": "npm test -- --coverage",
     "prepare": "husky install"
   },
   "repository": {

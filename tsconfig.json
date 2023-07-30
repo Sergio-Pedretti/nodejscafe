@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ESNext",                                  
     "baseUrl": "src",
-    "module": "CommonJS", 
+    "module": "commonjs", 
+    "target": "ES2021",                                  
     "moduleResolution": "node",
     "rootDirs": ["src", "test"],
     "paths": {
